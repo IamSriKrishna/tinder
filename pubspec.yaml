@@ -1,0 +1,45 @@
+name: flutter_tinder_clone_app
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  swipe_cards: ^2.0.0+1
+  line_icons: ^2.0.3
+  flutter_svg: ^2.0.9
+  flutter_custom_clippers: ^2.1.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/girls/
+    - assets/images/girls/img_1.jpeg
+    - assets/images/girls/img_2.jpeg
+    - assets/images/girls/img_3.jpeg
+    - assets/images/girls/img_4.jpeg
+    - assets/images/girls/img_5.jpeg
+    - assets/images/girls/img_6.jpeg
+    - assets/images/girls/img_7.jpeg
+    - assets/images/girls/img_8.jpeg
+    - assets/images/girls/img_9.jpeg
+    - assets/images/girls/img_10.jpeg
